@@ -1,0 +1,60 @@
+@import url('https://fonts.googleapis.com/css2?family=PT+Sans:ital,wght@0,400;0,700;1,400;1,700&display=swap');
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body {
+    font-family: 'PT Sans', sans-serif;
+    background: #303749;
+    margin: 20px;
+}
+.chat-container {
+    max-width: 600px;
+    margin: 0 auto;
+}
+.chat-box {
+    padding: 20px;
+    border-radius: 20px;
+    height: 500px;
+    margin-bottom: 10px;
+    background-color: #4a5267;
+}
+.chat-message {
+    margin-bottom: 10px;
+}
+.bot-message {
+    color: #FFF;
+}
+.user-message {
+    text-align: right;
+    color: white;
+}
+img {
+    width: 16px;
+    height: 16px;
+    color: #FFF;
+}
+button {
+    border: none;
+    background-color: #37C2F1;
+    border-radius: 10px;
+    color: white;
+    font-size: 12px;
+    
+}
+button:hover {
+    cursor: pointer;
+    background-color: #22a9d6;
+    transform: 0.2s;
+    
+}
+input {
+    background-color: #4a5267;
+    color: #FFF;
+    border: none;
+    border-radius: 8px;
+}
+:focus{
+    border: 1px solid #37C2F1;
+}
